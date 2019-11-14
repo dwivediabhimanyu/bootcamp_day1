@@ -30,7 +30,7 @@ html {
   .sec-main {
     position: relative;
     height: 560px;
-    background: url('../images/Main.jpg') no-repeat center center;
+    background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
     background-size: cover;
     opacity: .8;
   }
@@ -57,6 +57,10 @@ html {
   }
    
   /* Mod 4.1 Apply Style */
+  .dp img{
+    display:  block;
+    border-radius: 50%;
+  }
   .sec-about a {
     color: #000;
   }
