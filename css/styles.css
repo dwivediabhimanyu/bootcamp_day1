@@ -1,3 +1,12 @@
+ /* Base */
+section {
+    padding: 5em 0;
+  }
+  
+  footer {
+    padding: 3em 0;
+  }
+
 /* Mod 2.3 Apply style on body html and navbar */
 html {
     font-size: 16px;
@@ -46,6 +55,8 @@ html {
     height: 40px;
     color: #fff;
   }
+   
+  /* Mod 4.1 Apply Style */
   .sec-about a {
     color: #000;
   }
@@ -63,4 +74,15 @@ html {
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
-  }  
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  hr {
+    margin-bottom: 3em;
+    width: 7%;
+  }
+
+ /* Mod 5.1 Apply Style */
+
