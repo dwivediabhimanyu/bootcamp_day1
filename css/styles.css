@@ -21,8 +21,9 @@ html {
   .sec-main {
     position: relative;
     height: 560px;
-    background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
+    background: url('../images/Main.jpg') no-repeat center center;
     background-size: cover;
+    opacity: .8;
   }
   .sec-main:after {
     content: "";
@@ -45,4 +46,21 @@ html {
     height: 40px;
     color: #fff;
   }
+  .sec-about a {
+    color: #000;
+  }
+  .sec-about a {
+    text-decoration: underline;
+  }
   
+  .sec-about a:hover, .sec-about a:focus {
+    color: #ad0000;
+  }
+  .sec-about p {
+    text-align: center;
+  }
+  .container > h1 {
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+  }  
