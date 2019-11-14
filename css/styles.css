@@ -1,5 +1,14 @@
 /* Mod 2.3 Apply style on body html and navbar */
-
+html {
+    font-size: 16px;
+  }
   
-
+  body {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+  }
+  .navbar a {
+    font-size: 16px;
+  }
+/* Mod 3.2 Apply style*/
   
